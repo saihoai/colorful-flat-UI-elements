@@ -1,0 +1,23 @@
+body { background: #f4f4f5; font-family: 'Open Sans', sans-serif; }
+.container { margin: 30px auto; }
+@media(min-width:800px){
+	.container { width: 800px; }
+}
+
+.panel-buttons .btn { text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2); }
+
+.panel-buttons, .panel-component { background-color: transparent; box-shadow: none; }
+.panel-profile, .panel-alert { box-shadow: 0 0 7px 0 rgba(0, 0, 0, .15); }
+
+.form-group-search { box-shadow: 0 0 4px 0 rgba(0,0,0,.63); border-radius: 5px; overflow: hidden; }
+.form-group-search .form-control { border: 0 none; border-radius: 0; }
+.form-group-search .form-control:focus { box-shadow: none; }
+.form-group-search .input-group-addon { background: #fff; border-radius: 0; border: 0 none; }
+
+.btn-group { border-radius: 5px; }
+.btn-group .btn .btn-inner { border-radius: 5px; }
+.btn-group .btn.active { background-color: #fff; border-radius: 5px; }
+.btn-group.btn-success .btn.active { border: 5px solid #5cb85c; color: #5cb85c;}
+.btn-group.btn-danger .btn.active { border: 5px solid #d9534f; color: #d9534f;}
+
+.panel-alert .btn-action .btn { border-radius: 0 0 5px 5px; }
